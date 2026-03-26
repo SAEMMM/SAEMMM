@@ -1,6 +1,6 @@
 # 👩‍💻 Frontend Developer Shin Saem
 
-> Type-safe UI · Reusable Architecture · Performance Optimization
+> Type-safe UI · Reusable Architecture · Data Modeling
 
 ---
 
@@ -38,12 +38,24 @@
 
 - 재사용 가능한 컴포넌트 설계
 - 타입 안정성을 기반으로 한 UI 구조
+- 데이터 가공 및 정규화를 통한 UI 추상화
 - 렌더링 성능 최적화 (memo, dynamic import)
-- 사용자 행동 데이터 기반 UI 개선
 
 ---
 
-## 📌 Featured Project
+## 📌 Featured Projects
+
+### 🔹 Chart Data Normalization
+> 서로 다른 API 응답을 공통 차트 모델로 정규화하여 재사용 가능한 차트 구조 설계
+
+- API별로 다른 응답 구조를 **공통 ChartModel로 정규화**
+- Adapter 계층을 통해 데이터 가공 로직 분리
+- 차트 컴포넌트가 데이터 구조에 의존하지 않도록 설계
+- 하나의 차트 컴포넌트로 다양한 데이터 소스 재사용
+
+👉 https://github.com/SAEMMM/chart-data-normalization
+
+---
 
 ### 🔹 React Generic Select
 > 타입 안전성을 보장하는 공용 Select 컴포넌트
@@ -53,6 +65,18 @@
 - 잘못된 사용을 컴파일 단계에서 차단
 
 👉 https://github.com/SAEMMM/react-generic-select
+
+---
+
+### 🔹 Chart.js Overlap Chart
+> 실행 데이터와 계획 데이터를 하나의 흐름으로 자연스럽게 표현하는 차트 구현
+
+- 실제 값 + 예정 값을 하나의 라인으로 연결
+- 데이터 가공을 통해 **중간 구간은 실선, 이후 구간은 점선 처리**
+- 시간 축을 기준으로 데이터를 정렬 및 보정
+- 단순 시각화가 아닌 **데이터 해석을 위한 차트 설계**
+
+👉 https://github.com/SAEMMM/react-chartjs-overlap-demo.git
 
 ---
 
@@ -72,4 +96,4 @@
 
 ## 🔥 One Line
 
-> 타입 안정성과 재사용성을 기반으로 구조를 설계하는 프론트엔드 개발자입니다.
+> 데이터를 구조화하고, 재사용 가능한 UI로 연결하는 프론트엔드 개발자입니다.
