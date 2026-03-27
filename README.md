@@ -56,6 +56,8 @@
 
 👉 https://github.com/SAEMMM/apoorpoor-refactor
 
+---
+
 ### 🔹 Chart Data Normalization
 > 서로 다른 API 응답을 공통 차트 모델로 정규화하여 재사용 가능한 차트 구조 설계
 
