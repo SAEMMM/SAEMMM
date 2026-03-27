@@ -45,6 +45,17 @@
 
 ## 📌 Featured Projects
 
+### 🔹 apoorpoor-refactor
+> 기존 React 기반 가계부 프로젝트를 Next.js App Router 구조로 리팩토링하는 프로젝트
+
+- 2023년 취업 준비 당시 제작한 가계부 프로젝트를 기반으로 개선 진행
+- Next.js App Router로 마이그레이션하며 폴더 구조 및 렌더링 구조 재설계
+- MUI + 토큰 기반 디자인 시스템 및 공용 UI 컴포넌트 구축
+- UI → Data → API 순으로 단계적 리팩토링 진행
+- 프론트엔드 구조를 먼저 안정화한 후, 백엔드 직접 구현 예정
+
+👉 https://github.com/SAEMMM/apoorpoor-refactor
+
 ### 🔹 Chart Data Normalization
 > 서로 다른 API 응답을 공통 차트 모델로 정규화하여 재사용 가능한 차트 구조 설계
 
