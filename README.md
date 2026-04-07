@@ -46,13 +46,13 @@
 ## 📌 Featured Projects
 
 ### 🔹 apoorpoor-refactor
-> 기존 React 기반 가계부 프로젝트를 Next.js App Router 구조로 리팩토링하는 프로젝트
+> 기존 React 기반 가계부 프로젝트를 풀스택 모노레포로 재설계한 프로젝트
 
-- 2023년 취업 준비 당시 제작한 가계부 프로젝트를 기반으로 개선 진행
-- Next.js App Router로 마이그레이션하며 폴더 구조 및 렌더링 구조 재설계
-- MUI + 토큰 기반 디자인 시스템 및 공용 UI 컴포넌트 구축
-- UI → Data → API 순으로 단계적 리팩토링 진행
-- 프론트엔드 구조를 먼저 안정화한 후, 백엔드 직접 구현 예정
+- Next.js 16 (App Router) + Hono.js + PostgreSQL/Prisma 기반 풀스택 구성
+- pnpm workspace 모노레포 구조 (apps/web, apps/api, packages/db, packages/shared)
+- JWT 인증, 가계부 CRUD, 월별 대시보드(캘린더·파이차트·막대차트) 구현
+- MUI v7 + 토큰 기반 디자인 시스템 및 공용 UI 컴포넌트 구축
+- 타입 계약을 shared 패키지로 분리하여 프론트·백엔드 간 타입 안정성 확보
 
 👉 https://github.com/SAEMMM/apoorpoor-refactor
 
