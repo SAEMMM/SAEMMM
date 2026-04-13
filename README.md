@@ -45,7 +45,21 @@
 
 ## 📌 Featured Projects
 
-### 🔹 apoorpoor-refactor
+### 🔹 StackPulse (In Progress 🚧)
+> 최신 기술 소식을 분석해 영향도와 액션까지 제안하는 개발자용 AI 브리핑 앱
+
+- 다양한 기술 소스를 수집하여 이슈 단위로 클러스터링
+- AI를 활용해 단순 요약이 아닌 개발자 관점 해석(Interpretation) 생성
+- 각 이슈에 대해 영향도(Impact) 및 대응 액션(Action) 제안
+- 사용자 기술 스택 기반 개인화된 피드 제공
+- 다국어 구조 (원문 + 해석 분리) 설계로 글로벌 확장 고려
+- 모바일 앱 중심 UX (푸시 알림 기반 중요 이슈 전달) 설계 및 개발 진행 중
+
+👉 https://github.com/SAEMMM/stack-pulse
+
+---
+
+### 🔹 Apoorpoor (In Progress 🚧)
 > 기존 React 기반 가계부 프로젝트를 풀스택 모노레포로 재설계한 프로젝트
 
 - Next.js 16 (App Router) + Hono.js + PostgreSQL/Prisma 기반 풀스택 구성
