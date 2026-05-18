@@ -56,8 +56,6 @@
 - 기존 모바일 브리핑 앱 방향에서 웹 우선 프로젝트 분석 MVP로 전환 중
 - 향후 공식 changelog 기반 분석, GitHub repo 분석, 모바일 알림 채널 확장 예정
 
-👉 https://github.com/SAEMMM/stack-pulse
-
 ---
 
 ### 🔹 Apoorpoor (In Progress 🚧)
