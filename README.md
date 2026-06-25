@@ -45,20 +45,7 @@
 
 ## 📌 Featured Projects
 
-### 🔹 StackPulse (In Progress 🚧)
-> 최신 기술 변화를 내 프로젝트 기준으로 분석해, 바로 실행 가능한 작업 계획으로 바꿔주는 개발자용 웹 도구
-
-- 기술 뉴스/릴리즈/보안 공지를 기사 단위가 아닌 기술 변화 단위로 정리
-- `package.json` 기반으로 프로젝트의 의존성, 스택, 영향 가능성 분석
-- 최신 기술 변화가 현재 프로젝트에 직접 영향이 있는지 우선순위화
-- 각 추천 항목에 확인 명령어, 테스트 체크리스트, 롤백 기준 제공
-- GitHub Issue나 작업 문서에 붙여넣을 수 있는 Markdown Action Plan 생성
-- 기존 모바일 브리핑 앱 방향에서 웹 우선 프로젝트 분석 MVP로 전환 중
-- 향후 공식 changelog 기반 분석, GitHub repo 분석, 모바일 알림 채널 확장 예정
-
----
-
-### 🔹 Apoorpoor (In Progress 🚧)
+### 🔹 Apoorpoor
 > 기존 React 기반 가계부 프로젝트를 풀스택 모노레포로 재설계한 프로젝트
 
 - Next.js 16 (App Router) + Hono.js + PostgreSQL/Prisma 기반 풀스택 구성
